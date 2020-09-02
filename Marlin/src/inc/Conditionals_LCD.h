@@ -781,7 +781,11 @@
   #define EXTRUDE_MINTEMP 170
 #endif
 
+<<<<<<< HEAD
 // This flag indicates if Neopixel pins are shared or separated
+=======
+// This flag indicates if Neopixel pins are shared or separated  
+>>>>>>> edccc908e3222ce8211466837722b02fb359055f
 #if EITHER(MULTIPLE_NEOPIXEL_TYPES, NEOPIXEL2_INSERIES)
   #define CONJOINED_NEOPIXEL 1
 #endif
